@@ -1,1 +1,13 @@
-<html><body>You are being <a href="https://raw.githubusercontent.com/pcherel/RtestRepo/master/.gitignore">redirected</a>.</body></html>
+# History files
+.Rhistory
+.Rapp.history
+
+# Example code in package build process
+*-Ex.R
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
